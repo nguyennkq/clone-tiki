@@ -1,0 +1,506 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment2</title>
+    <link rel="stylesheet" href="../dist/output.css">
+</head>
+<body class="font-web">
+    <!-- Header -->
+    <div class="mx-auto bg-blue-500 lg:hidden text-[13px] fixed w-full">
+        <div class="flex justify-start items-center pt-3 w-full px-10 md:px-20 pb-3 md:pt-6 md:pb-6 space-x-2 cursor-pointer">
+            <span>
+                <img class="" src="./images/search.svg" alt="">
+            </span>
+            <input class="w-full boder rounded-lg px-2 py-1"type="text" placeholder="Bạn đang tìm kiếm gì">
+        </div>
+    </div>
+    <div class="bg-blue-500 hidden lg:block pt-4 text-[11px] px-28 py-4 text-white">
+        <div class="flex justify-between items-center space-x-4">
+            <div class="flex flex-1 space-x-44">
+                <a href="./index.html"><img class="" src="./images/tiki-logo1.svg" alt=""></a>
+                <div class="flex flex-auto text-[13px]">
+                    <input class="flex-auto flex border rounded-l" type="text">
+                    <button class="flex items-center w-[120px] bg-button space-x-2 justify-center py-3 border rounded-r border-none">
+                        <img src="./images/search.svg" alt="">
+                        <a href="#">Tìm kiếm</a>
+                    </button>
+                </div>
+            </div>
+            <div class="flex items-center space-x-8">
+                <div class="flex space-x-2">
+                    <img class="w-8" src="./images/user.svg" alt="">
+                    <div>
+                        <div>
+                            <a href="#">Đăng nhập</a>
+                            <span>/</span>
+                            <a href="#">Đăng ký</a>
+                        </div>
+                        <div class="flex text-[13px]">
+                            <a href="#">Tài khoản</a>
+                            <img src="./images/icon-buttom.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="flex items-end space-x-1">
+                    <img class="w-8" src="./images/shop.svg" alt="">
+                    <a href="#">Giỏ hàng</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="flex justify-between mt-[10px]">
+            <div class="flex flex-auto">
+                <img class="w-20" src="./images/tiki-logo-2.svg" alt="">
+                <ul class="flex space-x-3 ml-[156px]">
+                    <li><a href="#">harry potter</a></li>
+                    <li><a href="#">sherlock holmes</a></li>
+                    <li><a href="#">cơ thể tự chữa lành</a></li>
+                    <li><a href="#">nếu biết trăm năm là hữu hạn</a></li>
+                    <li><a href="#">chú thuật hồi chiến vol 3</a></li>
+                </ul>
+            </div>
+            <p class="flex bg-blue-400 boder rounded-l-xl rounded-r-xl px-3 py-1 space-x-1">
+                <img src="./images/home.svg" alt="">
+                <a href="#">Bán hàng cùng Tiki</a>
+            </p>
+        </div>
+    </div>
+
+    <!--Content  -->
+    <div class="hidden lg:block">
+        <div class="flex px-28 items-center bg-gray-2 space-x-2 py-[10px]">
+            <a href="#" class="text-gray-1 hover:underline hover:underline-offset-1">Trang chủ</a>
+            <span><img src="./images/right.svg" alt=""></span>
+            <a href="#">Nhà Sách TiKi</a>
+        </div>
+    </div>
+    <div class="flex lg:px-28 text-main-text bg-gray-2 pb-4">
+    <!-- Content-left -->
+        <div class="flex-none w-[248px] pt-2 text-[13px] bg-main-bg pl-4 font-normal hidden lg:block">
+            <div class="border-gray-2 border-b pb-4 ">
+                <h2 class="font-bold ">DANH MỤC SẢN PHẨM</h2>
+                <p class="mt-3"><a href="#">English Books</a></p>
+                <p class="mt-2"><a href="#">Sách tiếng Việt</a></p>
+                <p class="mt-2"><a href="#">Văn phòng phẩm</a></p>
+                <p class="mt-2"><a href="#">Quà lưu niệm</a></p>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h2 class="font-bold">ĐỊA CHỈ NHẬN HÀNG</h2>
+                <p class="mt-3 underline underline-offset-1"><a href="#">Q. Hoàn Kiếm, P. Hàng Trống, Hà Nội</a></p>
+                <p class="text-blue-500"><a href="#">ĐỔI ĐỊA CHỈ</a></p>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h2 class="font-bold">DỊCH VỤ</h2>
+                <div class="flex items-center space-x-2 mt-3">
+                    <input type="checkbox">
+                    <label for="" class="flex items-center space-x-1">
+                        <img src="./images/tikinow-content.svg" alt="">
+                        <p class="cursor-pointer">Giao siêu tốc 2H</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-1 space-x-2">
+                    <input type="checkbox">
+                    <label for="" class="flex items-center space-x-1">
+                        <img src="./images/freeship.svg" alt="">
+                        <p class="cursor-pointer">Không giới hạn</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-2 space-x-2">
+                    <input type="checkbox">
+                    <label for="" class="">
+                        <p class="cursor-pointer">Rẻ hơn hoàn tiền</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Trả góp 0%</p>
+                    </label>
+                </div>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h2 class="font-bold">NƠI BÁN</h2>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Hà Nội</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Hồ Chí Minh</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Đà Nẵng</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Thái Nguyên</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Bình Dương</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-5 space-x-1 text-blue-500 ">
+                    <a href="#">Xem thêm</a>
+                    <span><img class="" src="./images/bottom.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h2 class="font-bold">ĐÁNH GIÁ</h2>
+                <div class="flex space-x-1 mt-6 cursor-pointer">
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <p>từ 5 sao</p>
+                </div>
+                <div class="flex space-x-1 mt-4 cursor-pointer">
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/saonhattrai.svg" alt="">
+                        <img src="./images/saonhatphai.svg" alt="">
+                    </div>
+                    <p>từ 4 sao</p>
+                </div>
+                <div class="flex space-x-1 mt-4 cursor-pointer">
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/sao.svg" alt="">
+                        <img src="./images/saophai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/saonhattrai.svg" alt="">
+                        <img src="./images/saonhatphai.svg" alt="">
+                    </div>
+                    <div class="flex">
+                        <img src="./images/saonhattrai.svg" alt="">
+                        <img src="./images/saonhatphai.svg" alt="">
+                    </div>
+                    <p>từ 3 sao</p>
+                </div>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h3 class="font-bold">GIÁ</h3>
+                <p class="mt-4 cursor-pointer"><span class="px-3 py-0.5 bg-price border rounded-xl">Dưới 40.000</span></p>
+                <p class="mt-2 cursor-pointer"><span class="px-3 py-0.5 bg-price border rounded-xl">Từ 40.000 đến 120.000</span></p>
+                <p class="mt-2 cursor-pointer"><span class="px-3 py-0.5 bg-price border rounded-xl">Từ 120.000 đến 280.000</span></p>
+                <p class="mt-2 cursor-pointer"><span class="px-3 py-0.5 bg-price border rounded-xl">Trên 280.000</span></p>
+                <p class="mt-2 text-gray-1">Chọn khoảng giá</p>
+                <div class="flex items-center space-x-2 mt-1">
+                    <input class="w-[95px] h-[30px] border-[1px] border-gray-1 rounded outline-none px-2" type="text">
+                    <span>-</span>
+                    <input class="w-[95px] h-[30px] border-[1px] border-gray-1 rounded outline-none px-2" type="text">
+                </div>
+                <button class="mt-2 border-[1px] border-button w-[95px] py-1 rounded text-button">Áp dụng</button>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h2 class="font-bold">THƯƠNG HIỆU</h2>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">CHONMUA 365</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Deli</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Stabilo</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Pentel</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Thiên Long</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-5 space-x-1 text-blue-500 ">
+                    <a href="#">Xem thêm</a>
+                    <span><img class="" src="./images/bottom.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="pt-4 border-gray-2 border-b pb-4">
+                <h2 class="font-bold">NHÀ CUNG CẤP</h2>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Nhà sách Fahasa</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Tiki Trading</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Nhà Sách Vĩnh Thụy</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Times Books</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-3 space-x-2">
+                    <input type="checkbox">
+                    <label for="">
+                        <p class="cursor-pointer">Minhhabooks</p>
+                    </label>
+                </div>
+                <div class="flex items-center mt-5 space-x-1 text-blue-500 ">
+                    <a href="#">Xem thêm</a>
+                    <span><img class="" src="./images/bottom.svg" alt=""></span>
+                </div>
+            </div>
+            <div class="pt-4 border-gray-2">
+                <h2 class="font-bold">GIAO HÀNG</h2>
+                <div class="flex items-center mt-2 space-x-2">
+                    <input type="radio" name="hang">
+                    <label class="cursor-pointer" for="">Hàng Nội Địa</label>
+                </div>
+                <div class="flex items-center mt-2 space-x-2">
+                    <input type="radio" name="hang">
+                    <label class="cursor-pointer" for="">Hàng Quốc Tế</label>
+                </div>
+            </div>
+        </div>
+<!-- Content-right -->
+        <div class="grow lg:pt-4 bg-main-bg text-[13px] border-gray-2 xl:border-l lg:border-l sm:px-10 lg:px-0">
+            <div class="flex flex-col-reverse lg:flex-col">
+                <h2 class="font-normal text-base lg:text-2xl lg:mb-3 lg:px-4 mt-2 lg:mt-0">Nhà Sách Tiki</h2>
+                <img class="mt-[51px] md:mt-[75px] lg:mt-0" src="./images/banner.png" alt="">
+            </div>
+            <div class="lg:hidden">
+                <div class="grid grid-cols-2 mt-2 px-2">
+                    <div class="flex items-center space-x-2">
+                        <img class="w-10" src="./images/tienganh.png" alt="">
+                        <p class="cursor-pointer">English Books</p>
+                    </div>
+                    <div class="flex items-center space-x-2">
+                        <img class="w-10" src="./images/tiengviet.png" alt="">
+                        <p class="cursor-pointer">Sách Tiếng Việt</p>
+                    </div>
+                </div>
+                <div class="flex justify-center mt-4 space-x-2 text-blue-500">
+                    <a href="#">Xem thêm 2 Danh Mục</a>
+                    <img class="" src="./images/bottom.svg" alt="">
+                </div>
+            </div>
+            <ul class="flex justify-between lg:justify-start lg:space-x-8 mt-7 border-gray-2 border-b lg:px-4 s:px-2 border-l">
+                <li><button class="border-b-4 pb-2 border-button text-button">Phổ biến</button></li>
+                <li><button class="hover:border-b-4 pb-2 border-button hover:text-button">Bán chạy</button></li>
+                <li><button class="hover:border-b-4 pb-2 border-button hover:text-button">Hàng mới</button></li>
+                <li class="lg:hidden hover:border-b-4 pb-2 border-button">
+                    <div class="flex space-x-1">
+                        <button class=" hover:text-button">Giá</button>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-5" viewBox="0 0 20 20" fill="currentColor">
+                            <path d="M5 12a1 1 0 102 0V6.414l1.293 1.293a1 1 0 001.414-1.414l-3-3a1 1 0 00-1.414 0l-3 3a1 1 0 001.414 1.414L5 6.414V12zM15 8a1 1 0 10-2 0v5.586l-1.293-1.293a1 1 0 00-1.414 1.414l3 3a1 1 0 001.414 0l3-3a1 1 0 00-1.414-1.414L15 13.586V8z" />
+                        </svg>
+                    </div>
+                </li>
+                <div class="hidden lg:block lg:space-x-8">
+                    <button class="hover:border-b-4 pb-2 border-button hover:text-button">Giá thấp</button>
+                    <button class="hover:border-b-4 pb-2 border-button hover:text-button">Giá cao</button>
+                </div>
+            </ul>
+            <div class="flex mt-4 space-x-3 mb-3 lg:px-4 items-center s:px-2">
+                <div class="flex items-center space-x-1 lg:hidden">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M3 4a1 1 0 011-1h16a1 1 0 011 1v2.586a1 1 0 01-.293.707l-6.414 6.414a1 1 0 00-.293.707V17l-4 4v-6.586a1 1 0 00-.293-.707L3.293 7.293A1 1 0 013 6.586V4z" />
+                    </svg>
+                    <a href="#">Lọc</a>
+                </div>
+                <p class="px-3 py-0.5 bg-price border rounded-2xl cursor-pointer">
+                  <img src="./images/tikinow-content.svg" alt="">
+                </p>
+                <p class="px-3 py-0.5 bg-price border rounded-2xl cursor-pointer">
+                <img src="./images/freeship.svg" alt="">
+                </p>
+                <div class="flex items-center space-x-1 cursor-pointer lg:hidden">
+                    <p>Nhà cung cấp</p>
+                    <img src="./images/bottom.svg" alt="">
+                </div>
+            </div>
+            <div class="grid xl:grid-cols-4 lg:grid-cols-3 grid-cols-2 " id="book-list">
+                <!-- Javascript -->
+            </div>
+            <div class="hidden lg:block">
+                <ul class="flex space-x-2 justify-end mt-4 mb-3 lg:px-4">
+                    <li class="text-white bg-blue-400 rounded-full py-2 px-3 "><a href="#">1</a></li>
+                    <li class="hover:bg-blue-400 hover:text-white rounded-full py-2 px-3"><a href="#">2</a></li>
+                    <li class="hover:bg-blue-400 hover:text-white rounded-full py-2 px-3"><a href="#">3</a></li>
+                    <li class="hover:bg-blue-400 hover:text-white rounded-full py-2 px-3"><a href="#">4</a></li>
+                    <li class="hover:bg-blue-400 hover:text-white rounded-full py-2 px-3"><a href="#">5</a></li>
+                </ul>
+            </div>
+            <div class="hidden lg:block">
+                <div class="p-4">
+                    <h2 class="mb-4 text-lg">SẢN PHẨM BẠN ĐÃ XEM</h2>
+                    <img src="./images/daxem.png" alt="">
+                    <p class="mt-2">Gió thổi mùa trăng năm ấy</p>
+                    <div class="flex space-x-2">
+                        <p>4.5</p>
+                        <p class="text-gray-1">1000+</p>
+                    </div>
+                    <p class="font-bold">179000</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    <div class="lg:px-28 pt-3 hidden lg:block">
+        <div class="flex justify-between lg:space-x-10 pt-4">
+            <div class="text-gray-1">
+                <h2 class="text-black">Hỗ trợ khách hàng</h2>
+                <p class="mt-3 text-xs">Hotline: <a href="#" class="text-black font-medium hover:underline-offset-1 hover:underline">1900-6035</a></p>
+                <p class="text-xs">(1000 đ/phút, 8-21h kể cả T7, CN)</p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Các câu hỏi thường gặp</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Gửi yêu cầu hỗ trợ</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Hướng dẫn đặt hàng</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Phương thức vận chuyển</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Chính sách đổi trả</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Hướng dẫn trả góp</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Chính sách hàng nhập khẩu</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Hỗ trợ khách hàng: hotro@tiki.vn</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Báo lỗi bảo mật: security@tiki.vn</a></p>
+            </div>
+            <div class="text-gray-1">
+                <h2 class="text-black">Về Tiki</h2>
+                <p><a href="#" class="mt-3 text-xs hover:underline-offset-1 hover:underline">Giới thiệu Tiki</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Tuyển dụng</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Chính sách bảo mật thanh toán</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Chính sách bảo mật thông tin cá nhân</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Chính sách giải quyết khiếu nại</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Điều khoản sử dụng</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Giới thiệu Tiki Xu</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Tiếp thị liên kết cùng Tiki</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Bán hàng doanh nghiệp</a></p>
+                <p><a href="#" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Điều kiện vận chuyển</a></p>
+            </div>
+            <div class="text-gray-1">
+                <h2 class="text-black">Hợp tác và liên kết</h2>
+                <p><a href="#" class="mt-3 text-xs hover:underline-offset-1 hover:underline">Quy chế hoạt động Sàn GDTMĐT</a></p>
+                <p><a href="" class="mt-2 text-xs hover:underline-offset-1 hover:underline">Bán hàng cùng Tiki</a></p>
+                <p class="mt-6 text-black">Chứng nhận bởi</p>
+                <div class="flex mt-3 space-x-2">
+                    <img class="" src="./images/img-footer.svg" alt="">
+                    <img src="./images/img-dangky.svg" alt="">
+                </div>
+            </div>
+            <div class="text-gray-1">
+                <h2 class="text-black">Phương thức thanh toán</h2>
+                <div class="mt-3 grid grid-cols-5 gap-2">
+                    <img src="./images/tiki.svg" alt="">
+                    <img src="./images/visa.svg" alt="">
+                    <img src="./images/card.svg" alt="">
+                    <img src="./images/jcb.svg" alt="">
+                    <img src="./images/atm.svg" alt="">
+                    <img src="./images/momo.svg" alt="">
+                    <img src="./images/zalopay.svg" alt="">
+                    <img src="./images/moca.svg" alt="">
+                    <img src="./images/viettel-pay.svg" alt="">
+                    <img src="./images/vnpay.svg" alt="">
+                    <img src="./images/money.svg" alt="">
+                    <img src="./images/tragop.svg" alt="">
+                </div>
+                <p class="text-black mt-7">Dịch vụ giao hàng</p>
+                <div class="mt-4">
+                    <img src="./images/tikinow.svg" alt="">
+                </div>
+            </div>
+            <div>
+                <h2 class="text-black">Kết nối với chúng tôi</h2>
+                <div class="flex mt-3 space-x-2">
+                    <img src="./images/facebook.svg" alt="">
+                    <img src="./images/youtube.svg" alt="">
+                    <img src="./images/zalo.svg" alt="">
+                </div>
+                <p class="text-black mt-8">Tải ứng dụng trên điện thoại</p>
+                <div class="flex mt-3 space-x-2">
+                    <img src="./images/qr-code.svg" alt="">
+                    <div class="flex flex-col justify-between">
+                        <img src="./images/appstore.svg" alt="">
+                        <img class="mt-2" src="./images/google-play.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="mx-auto container w-full h-px bg-gray-2 mt-4"></div>
+        <div class="text-gray-1 text-xs mt-4">
+            <p class="mt-2">Trụ sở chính: Tòa nhà Viettel, Số 285, đường Cách Mạng Tháng 8, phường 12, quận 10, Thành phố Hồ Chí Minh</p>
+            <p class="mt-2">Tiki nhận đặt hàng trực tuyến và giao hàng tận nơi, chưa hỗ trợ mua và nhận hàng trực tiếp tại văn phòng hoặc trung tâm xử lý đơn hàng</p>
+            <p class="mt-2">Giấy chứng nhận Đăng ký Kinh doanh số 0309532909 do Sở Kế hoạch và Đầu tư Thành phố Hồ Chí Minh cấp lần đầu ngày 06/01/2010 và sửa đổi lần thứ 23 ngày 14/02/2022</p>
+            <p class="mt-2 pb-4">© 2022 - Bản quyền của Công ty TNHH TiKi</p>
+        </div>
+    </div>
+
+   
+    <script type="module" src="./app.js"></script>
+</body>
+</html>
